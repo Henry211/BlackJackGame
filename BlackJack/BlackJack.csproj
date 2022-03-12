@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A6AE7660-FBC6-41CF-A267-A0A637B276B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BlackJack</RootNamespace>
+    <AssemblyName>BlackJack</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.DirectoryServices.AccountManagement" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SocketListener.cs" />
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Carta.cs" />
+    <Compile Include="Jugador.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Mesa.cs" />
+    <Compile Include="Principal.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Back.png" />
+    <Resource Include="Recursos\Clubs10.png" />
+    <Resource Include="Recursos\Clubs2.png" />
+    <Resource Include="Recursos\Clubs3.png" />
+    <Resource Include="Recursos\Clubs4.png" />
+    <Resource Include="Recursos\Clubs5.png" />
+    <Resource Include="Recursos\Clubs6.png" />
+    <Resource Include="Recursos\Clubs7.png" />
+    <Resource Include="Recursos\Clubs8.png" />
+    <Resource Include="Recursos\Clubs9.png" />
+    <Resource Include="Recursos\Diamonds10.png" />
+    <Resource Include="Recursos\Diamonds2.png" />
+    <Resource Include="Recursos\Diamonds3.png" />
+    <Resource Include="Recursos\Diamonds4.png" />
+    <Resource Include="Recursos\Diamonds5.png" />
+    <Resource Include="Recursos\Diamonds6.png" />
+    <Resource Include="Recursos\Diamonds7.png" />
+    <Resource Include="Recursos\Diamonds8.png" />
+    <Resource Include="Recursos\Diamonds9.png" />
+    <Resource Include="Recursos\Diamonds1.png" />
+    <Resource Include="Recursos\Diamonds11.png" />
+    <Resource Include="Recursos\Diamonds13.png" />
+    <Resource Include="Recursos\Diamonds12.png" />
+    <Resource Include="Recursos\Hearts10.png" />
+    <Resource Include="Recursos\Hearts2.png" />
+    <Resource Include="Recursos\Hearts3.png" />
+    <Resource Include="Recursos\Hearts4.png" />
+    <Resource Include="Recursos\Hearts5.png" />
+    <Resource Include="Recursos\Hearts6.png" />
+    <Resource Include="Recursos\Hearts7.png" />
+    <Resource Include="Recursos\Hearts8.png" />
+    <Resource Include="Recursos\Hearts9.png" />
+    <Resource Include="Recursos\Hearts1.png" />
+    <Resource Include="Recursos\Hearts11.png" />
+    <Resource Include="Recursos\Hearts13.png" />
+    <Resource Include="Recursos\Hearts12.png" />
+    <Resource Include="Recursos\Spades10.png" />
+    <Resource Include="Recursos\Spades2.png" />
+    <Resource Include="Recursos\Spades3.png" />
+    <Resource Include="Recursos\Spades4.png" />
+    <Resource Include="Recursos\Spades5.png" />
+    <Resource Include="Recursos\Spades6.png" />
+    <Resource Include="Recursos\Spades7.png" />
+    <Resource Include="Recursos\Spades8.png" />
+    <Resource Include="Recursos\Spades9.png" />
+    <Resource Include="Recursos\Spades1.png" />
+    <Resource Include="Recursos\Spades11.png" />
+    <Resource Include="Recursos\Spades13.png" />
+    <Resource Include="Recursos\Spades12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Clubs1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\Clubs11.png" />
+    <Resource Include="Recursos\Clubs12.png" />
+    <Resource Include="Recursos\Clubs13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Recursos\10.png" />
+    <Resource Include="Recursos\100.png" />
+    <Resource Include="Recursos\25.png" />
+    <Resource Include="Recursos\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="100.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

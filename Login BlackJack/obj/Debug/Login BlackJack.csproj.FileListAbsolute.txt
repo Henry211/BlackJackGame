@@ -1,0 +1,31 @@
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\bin\Debug\Login BlackJack.exe.config
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\bin\Debug\Login BlackJack.exe
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\bin\Debug\Login BlackJack.pdb
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.csproj.AssemblyReference.cache
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\MainWindow.g.cs
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\App.g.cs
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack_MarkupCompile.cache
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack_MarkupCompile.lref
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\MainWindow.baml
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.g.resources
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login_BlackJack.Properties.Resources.resources
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.csproj.GenerateResource.cache
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.exe
+C:\Users\Ian\Documents\I CICLO 2021\SISTEMAS OPERATIVOS\Visual Studio\Login BlackJack\obj\Debug\Login BlackJack.pdb
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login.g.cs
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\App.g.cs
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack_MarkupCompile.cache
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack_MarkupCompile.lref
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\bin\Debug\Login BlackJack.exe.config
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\bin\Debug\Login BlackJack.exe
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\bin\Debug\Login BlackJack.pdb
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login.baml
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.g.resources
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login_BlackJack.Properties.Resources.resources
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.csproj.GenerateResource.cache
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.csproj.CoreCompileInputs.cache
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.exe
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.pdb
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\Login BlackJack.csprojAssemblyReference.cache
+C:\Users\duren\Downloads\SISTEMAS OPERATIVOS BRETES\Login BlackJack\obj\Debug\MainWindow.g.cs
